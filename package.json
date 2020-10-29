@@ -1,0 +1,35 @@
+{
+  "name": "veritx-studios",
+  "version": "1.0.1",
+  "description": "curret bot used in discord.gg/vertix",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Zeekz#1000",
+  "license": "ISC",
+  "dependencies": {
+    "ascii-table": "0.0.9",
+    "beautify": "0.0.8",
+    "chalk": "^4.1.0",
+    "common-tags": "^1.8.0",
+    "discord-streamrole": "^2.1.2",
+    "discord-temp-channels": "^1.0.3",
+    "discord-tictactoe": "^2.0.6",
+    "discord.js": "^12.2.0",
+    "fs": "0.0.1-security",
+    "humanize-duration": "^3.23.1",
+    "mathjs": "^7.1.0",
+    "moment": "^2.24.0",
+    "mongoose": "^5.9.13",
+    "ms": "^2.1.2",
+    "parse-ms": "^2.1.0",
+    "quick.db": "^7.1.1",
+    "uniqid": "^5.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
