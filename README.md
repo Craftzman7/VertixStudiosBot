@@ -11,7 +11,7 @@ Using this syestem allows senior developers. and the CTO to read over and make s
 
 ## Making changes & Adding localy
 
-As a brand we take security **very** seriosuly, as described in our [Security Policy](https://policies.vertixstudios.com/security). To make sure that we cary this out users have been granted permission to download/clone this repo to make changes form their code editor of choose. 
+As a brand we take security **very** seriosuly, as described in our [Security Policy](https://docs.vertixstudios.com/). To make sure that we cary this out users have been granted permission to download/clone this repo to make changes form their code editor of choose. 
 
 Before you clone or download this repo please follow these **exact** steps as to where you are to store them.
 
