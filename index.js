@@ -36,12 +36,11 @@ bot.on("guildMemberAdd", async (member) => {
     var d = new Date()
     bot.channels.cache.get("776334966241624084").send(`[\`${d.toLocaleTimeString()}\`] 📥 ${member.user.tag} (\`${member.id}\`) joined the server, account created \`${member.user.createdAt.toLocaleString()}\`.`)
     
-})
-
+});
 
 bot.on("guildMemberRemove", async (member) => {
     var d = new Date()
     bot.channels.cache.get("776334966241624084").send(`[\`${d.toLocaleTimeString()}\`] 📤 ${member.user.tag} (\`${member.id}\`) left the server, joined on \`${member.joinedAt.toLocaleDateString()}\`.`)
-})
+});
 
 bot.login(config.Token)
